@@ -61,3 +61,34 @@ header nav span{
 	flex-grow: 1;
   background-color: black;
 }
+
+.featured {
+	margin-bottom: 50px;
+}
+.featured h2 {
+	padding-top: 30px;
+}
+.thumbnails {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+figure img {
+	height: 200px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+figure {
+	margin: 0 20px 20px 0;
+	padding: 0;
+}
+figure figcaption {
+	margin-top: 0;
+}
+.thumbnails figcaption {
+	margin-top: -5px;
+}
