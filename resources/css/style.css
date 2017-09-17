@@ -92,3 +92,31 @@ figure figcaption {
 .thumbnails figcaption {
 	margin-top: -5px;
 }
+
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  background-image:url("../images/img-locations-background.jpg");
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.store {
+  width: 300px;
+  background-color: black;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.store p {
+  padding: 10px;
+}
