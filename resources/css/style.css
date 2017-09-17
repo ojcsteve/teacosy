@@ -1,3 +1,5 @@
+/*Format the entire page*/
+
 html {
   font-family: Helvetica;
   font-size: 22px;
@@ -7,12 +9,14 @@ html {
   text-align: center;
 }
 
-a {
-  color: white;
-}
-
 body {
   margin: 0;
+}
+
+/*For the header and navigation*/
+
+a {
+  color: white;
 }
 
 header {
@@ -30,12 +34,14 @@ header {
 .navigation {
   padding-right: 10px;
 }
+
 header nav span{
   text-decoration: underline;
   padding: 0 10px;
   font-weight: bold;
 }
 
+/*The mission, photo and text*/
 
 .container{
 	display:flex;
@@ -61,6 +67,8 @@ header nav span{
 	flex-grow: 1;
   background-color: black;
 }
+
+/*The teas that are featured*/
 
 .featured {
 	margin-bottom: 50px;
@@ -93,6 +101,7 @@ figure figcaption {
 	margin-top: -5px;
 }
 
+/*Where the shops are located*/
 
 #locations {
   display: flex;
@@ -121,7 +130,7 @@ figure figcaption {
   padding: 10px;
 }
 
-
+/*Contact and copyright information*/
 
 .contact {
   height: 200px;
