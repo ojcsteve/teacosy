@@ -1,0 +1,29 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: white;
+  padding: 10px 10px
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+  background-color: black;
+}
