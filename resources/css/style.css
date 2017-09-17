@@ -120,3 +120,19 @@ figure figcaption {
 .store p {
   padding: 10px;
 }
+
+
+
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
